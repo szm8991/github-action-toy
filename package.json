@@ -1,0 +1,14 @@
+{
+  "name": "github-action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "echo \"lint\" && exit 1",
+    "test": "echo \"test\" && exit 1",
+    "typecheck": "echo \"typecheck\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
