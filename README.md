@@ -23,3 +23,5 @@
 ### 使用 github secrets
 
 - 在 github 仓库中配置 github action 可访问的 secrets key
+
+[可以通过 secrets key 访问一些隐私的属性](https://github.com/szm8991/github-action-toy/blob/main/.github/workflows/secrets.yml)
