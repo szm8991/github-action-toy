@@ -13,3 +13,5 @@
 - workflow 文件采用 YAML 格式，GitHub 会自动运行.yml 文件
 
 ### 简单案例
+
+[main 分支推送和拉取时触发下载 node 环境并打印 node 版本的 ci](https://github.com/szm8991/github-action-toy/blob/main/.github/workflows/simple.yml)
