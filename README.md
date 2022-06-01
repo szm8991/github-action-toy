@@ -15,3 +15,7 @@
 ### 简单案例
 
 [main 分支推送和拉取时触发下载 node 环境并打印 node 版本的 ci](https://github.com/szm8991/github-action-toy/blob/main/.github/workflows/simple.yml)
+
+### 部署案例
+
+[婷婷哥的 ci 参考-lint、typecheck、test](https://github.com/antfu/starter-ts/blob/main/.github/workflows/ci.yml)
