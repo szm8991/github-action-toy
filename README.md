@@ -19,3 +19,7 @@
 ### 部署案例
 
 [婷婷哥的 ci 参考-lint、typecheck、test](https://github.com/antfu/starter-ts/blob/main/.github/workflows/ci.yml)
+
+### 使用 github secrets
+
+- 在 github 仓库中配置 github action 可访问的 secrets key
