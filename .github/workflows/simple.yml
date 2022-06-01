@@ -1,0 +1,19 @@
+name: simple-ci
+on: #on字段指定触发 workflow 的条件
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+      - name: Setup
+        run: node -v
